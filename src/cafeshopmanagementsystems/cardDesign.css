@@ -1,0 +1,20 @@
+
+/* 
+    Author     : yusufyunus
+*/
+
+.card{
+    -fx-background-color: #fff;
+    -fx-background-radius: 5px;
+}
+.shadow{
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 5,0,0,0);
+}
+.btn{
+    -fx-background-color: linear-gradient(to bottom right, #1A1A1D, #3B1C32, #6A1E55, #A64D79);
+    -fx-cursor: hand;
+    -fx-text-fill: #fff;
+}
+.btn:hover{
+    -fx-background-color: linear-gradient(to bottom right, #1A1A1D, #3B1C32, #6A1E55, #A64D79);
+}
